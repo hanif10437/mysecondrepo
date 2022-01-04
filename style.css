@@ -1,11 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 .container {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
-  font-family: "Poppins", sans-serif;
+
   display: flex;
   width: 95%;
 }
@@ -25,17 +26,56 @@ h1 {
   width: 55%;
 }
 .button {
-  text-decoration: none;
-  width: 500px;
-  padding: 10px 40px;
-  color: rgba(0, 0, 0, 0.966);
-  font-size: 1.25rem;
-  font-weight: 700;
-  border-radius: 5px;
+    text-decoration: none;
+    width: 500px;
+    padding: 10px 40px;
+    color: rgba(0, 0, 0, 0.966);
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 5px;
   background-image: linear-gradient(orange, tomato);
 
   background-color: rgb(253, 122, 0);
 }
 .btn {
   padding-top: 30px;
+}
+.part2 {
+  display: flex;
+  width: 95%;
+  margin-top: 100px;
+}
+.image2 {
+  width: 55%;
+}
+.text2 {
+  width: 65%;
+}
+.text2 h1{
+    font-weight: 700;
+}
+.text2 h3{
+    font-weight: 700;
+}
+
+.pad{
+    padding-top: 25px;
+}
+.dreampic {
+  background-repeat: no-repeat;
+  width: 28%;
+  height: auto;
+}
+.btn2{ text-decoration: none;
+    width: 500px;
+    padding: 8px 30px;
+   
+    color: rgba(0, 0, 0, 0.966);
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 5px;
+   color: rgb(0, 0, 0);
+   background-color:rgb(255, 60, 0);
+    
+    
 }
